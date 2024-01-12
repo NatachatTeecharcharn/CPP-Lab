@@ -44,10 +44,11 @@ int main()
         studentGrade.push_back(grade);
     }
 
-    cout << "Student ID\tStudent Score\tStudent Grade" << endl;
-    for (int i = 0; i < studentId.size(); i++)
+    if (studentId.size() > 0)
     {
-        cout << studentId[i] << "\t\t" << studentScore[i] << "\t\t" << studentGrade[i] << endl;
+        cout << "Student ID\tStudent Score\tStudent Grade" << endl;
+        for (int i = 0; i < studentId.size(); i++)
+            cout << studentId[i] << "\t\t" << studentScore[i] << "\t\t" << studentGrade[i] << endl;
     }
 
     return 0;
