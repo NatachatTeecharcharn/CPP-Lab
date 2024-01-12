@@ -51,7 +51,7 @@ int main()
                 cout << "The summation number in the list is " << sum << endl;
             }
         }
-        else
+        else if (choice == 0)
             break;
     }
 

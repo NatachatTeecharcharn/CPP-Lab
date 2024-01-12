@@ -52,7 +52,7 @@ int main()
                 int sum = accumulate(numList.begin(), numList.end(), 0);
                 cout << "The summation of numbers in the list is " << sum << endl;
             }
-            else
+            else if (choice == 0)
                 break;
         }
     }
