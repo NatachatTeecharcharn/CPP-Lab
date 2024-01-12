@@ -34,12 +34,12 @@ int main()
         studentScore.push_back(score);
 
         if (score >= 90) grade = "A";
-        if (score >= 85) grade = "B";
-        if (score >= 80) grade = "B+";
-        if (score >= 75) grade = "C";
-        if (score >= 70) grade = "C+";
-        if (score >= 65) grade = "D";
-        if (score >= 60) grade = "D+";
+        else if (score >= 85) grade = "B+";
+        else if (score >= 80) grade = "B";
+        else if (score >= 75) grade = "C+";
+        else if (score >= 70) grade = "C";
+        else if (score >= 65) grade = "D+";
+        else if (score >= 60) grade = "D";
         else grade = "F";
         studentGrade.push_back(grade);
     }
